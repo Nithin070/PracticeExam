@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="testSuiteSample">
+    <listeners>
+    <listener class-name="Utilities.ExtentReportManager"/>
+  </listeners>
+    <test name="MyTest">
+        <classes>
+            <class name="testCases.TC_AddProducts"/>
+            
+            <!-- <class name="testCases.TC_AllProducts"/> -->
+        </classes>
+    </test>
+</suite>
